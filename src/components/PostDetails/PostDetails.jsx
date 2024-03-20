@@ -6,10 +6,10 @@ const PostDetails = () => {
   const { id, title, body } = post;
   const navigate = useNavigate();
   const handleGoBack = () => {
-    navigate(-1)
+    navigate(-1);
   };
 
-  const {postId}=useParams()
+  const { postId } = useParams();
   console.log(parseInt(postId));
   return (
     <div>
